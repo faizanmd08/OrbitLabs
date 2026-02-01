@@ -1,0 +1,44 @@
+import { ArrowRight, Sparkles } from "lucide-react"
+import { Button } from "@/components/ui/button"
+
+export function HeroSection() {
+  return (
+    <section className="relative min-h-screen flex items-center justify-center pt-20">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/10 via-background to-background" />
+      
+      <div className="relative mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
+        <div className="mx-auto max-w-3xl text-center">
+          <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-border bg-secondary/50 px-4 py-2 text-sm text-muted-foreground">
+            <Sparkles className="h-4 w-4 text-primary" />
+            <span>AI Engineering for Startups</span>
+          </div>
+          
+          <h1 className="text-balance text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl">
+            We Build AI Agents That Actually Work
+          </h1>
+          
+          <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground sm:text-xl">
+            Mellow Labs is a 3-person AI engineering studio. We help startups ship production-ready 
+            AI agents that handle real workflows, not just demos.
+          </p>
+          
+          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <Button size="lg" asChild>
+              <a href="#contact" className="gap-2">
+                Start a Conversation
+                <ArrowRight className="h-4 w-4" />
+              </a>
+            </Button>
+            <Button size="lg" variant="outline" asChild>
+              <a href="#projects">See Our Work</a>
+            </Button>
+          </div>
+          
+          <p className="mt-8 text-sm text-muted-foreground">
+            Trusted by early-stage and growth-stage startups
+          </p>
+        </div>
+      </div>
+    </section>
+  )
+}

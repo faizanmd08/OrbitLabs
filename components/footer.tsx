@@ -1,0 +1,32 @@
+export function Footer() {
+  return (
+    <footer className="border-t border-border bg-background py-12">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
+          <div className="flex items-center gap-2">
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
+              <span className="font-mono text-sm font-bold text-primary-foreground">ML</span>
+            </div>
+            <span className="text-lg font-semibold text-foreground">Mellow Labs</span>
+          </div>
+          
+          <div className="flex items-center gap-6 text-sm text-muted-foreground">
+            <a href="https://twitter.com" className="transition-colors hover:text-foreground">
+              Twitter
+            </a>
+            <a href="https://linkedin.com" className="transition-colors hover:text-foreground">
+              LinkedIn
+            </a>
+            <a href="https://github.com" className="transition-colors hover:text-foreground">
+              GitHub
+            </a>
+          </div>
+          
+          <p className="text-sm text-muted-foreground">
+            2025 Mellow Labs. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  )
+}
