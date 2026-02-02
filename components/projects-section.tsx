@@ -21,7 +21,7 @@ const projects = [
   {
     title: "Gloommy — Cross-Modal RAG for Visual Generation",
     client: "AI Creative Tools / B2C SaaS",
-    description: "Built a full-stack implementation of Cross-Modal RAG that acts like a "Pinterest for AI," grounding image generation in a user's personal inspiration library. The system decomposes complex prompts into sub-dimensions (style, object, composition) and retrieves a Pareto-optimal set of visual assets to guide generation—bridging the gap between retrieval and controllable multimodal generation.",
+    description: "Built a full-stack implementation of Cross-Modal RAG that acts like a \"Pinterest for AI,\" grounding image generation in a user's personal inspiration library. The system decomposes complex prompts into sub-dimensions (style, object, composition) and retrieves a Pareto-optimal set of visual assets to guide generation—bridging the gap between retrieval and controllable multimodal generation.",
     tags: ["Google Gemini 2.5", "Cross-Modal RAG", "CLIP + Adapter", "Pareto Retrieval", "FastAPI", "React"],
     demoUrl: "https://www.youtube.com/embed/CYQfKWqc_8E",
   },
