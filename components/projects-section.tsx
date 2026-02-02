@@ -65,7 +65,7 @@ export function ProjectsSection() {
           {projects.map((project) => (
             <Card
               key={project.title}
-              className="service-card group relative border border-border/70 bg-secondary/40 transition-all duration-200 ease-out"
+              className="service-card group relative flex flex-col border border-border/70 bg-secondary/40 transition-all duration-200 ease-out"
               style={{
                 boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.02), 0 1px 3px 0 rgba(0, 0, 0, 0.03)',
               }}
@@ -74,7 +74,7 @@ export function ProjectsSection() {
                 <div className="text-sm font-medium text-primary">{project.client}</div>
                 <CardTitle className="text-foreground text-lg font-semibold leading-tight tracking-tight">{project.title}</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4">
+              <CardContent className="flex-1 space-y-4">
                 <CardDescription className="text-[0.9375rem] leading-relaxed text-muted-foreground/90">
                   {project.description}
                 </CardDescription>
@@ -86,7 +86,7 @@ export function ProjectsSection() {
                   ))}
                 </div>
               </CardContent>
-              <div className="p-6 pt-0">
+              <div className="mt-auto p-6 pt-0">
                 <Dialog>
                   <DialogTrigger asChild>
                     <Button variant="outline" className="w-full gap-2">
