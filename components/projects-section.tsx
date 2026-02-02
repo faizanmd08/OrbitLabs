@@ -21,9 +21,16 @@ const projects = [
   {
     title: "Gloommy — Cross-Modal RAG for Visual Generation",
     client: "AI Creative Tools / B2C SaaS",
-    description: "Built a full-stack implementation of Cross-Modal RAG that acts like a “Pinterest for AI,” grounding image generation in a user’s personal inspiration library. The system decomposes complex prompts into sub-dimensions (style, object, composition) and retrieves a Pareto-optimal set of visual assets to guide generation—bridging the gap between retrieval and controllable multimodal generation.",
+    description: "Built a full-stack implementation of Cross-Modal RAG that acts like a "Pinterest for AI," grounding image generation in a user's personal inspiration library. The system decomposes complex prompts into sub-dimensions (style, object, composition) and retrieves a Pareto-optimal set of visual assets to guide generation—bridging the gap between retrieval and controllable multimodal generation.",
     tags: ["Google Gemini 2.5", "Cross-Modal RAG", "CLIP + Adapter", "Pareto Retrieval", "FastAPI", "React"],
     demoUrl: "https://www.youtube.com/embed/CYQfKWqc_8E",
+  },
+  {
+    title: "SecOps Ally – AI SecOps Assistant",
+    client: "Security Operations",
+    description: "Built an AI-driven SecOps assistant that processes user inputs, recognizes intent, and automates the Direct Internet Access (DIA) issue workflow, interacting via a Webex Bot and integrating with ServiceNow to provide real-time insights and faster incident resolution.",
+    tags: ["Cisco", "AI Automation", "Python", "AWS Bedrock", "ServiceNow"],
+    demoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
   },
   {
     title: "Customer Support Agent",
