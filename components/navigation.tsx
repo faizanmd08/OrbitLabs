@@ -17,12 +17,20 @@ export function Navigation() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+      <nav className="flex w-full items-center justify-between px-6 py-4 lg:px-8">
+
         <a href="#" className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-            <span className="font-mono text-sm font-bold text-primary-foreground">ML</span>
-          </div>
-          <span className="text-lg font-semibold text-foreground">Mellow Labs</span>
+          <img
+          src="/logo.png"
+          alt="Orbital Labs"
+          className="
+          h-10 sm:h-11 md:h-12 
+          w-auto
+          mix-blend-screen
+          opacity-90
+          "
+          />
+
         </a>
 
         <div className="hidden md:flex md:items-center md:gap-8">

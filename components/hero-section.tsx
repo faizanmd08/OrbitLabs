@@ -3,7 +3,14 @@ import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20">
+    <section className="relative min-h-screen flex items-center justify-center py-32">
+
+      <div aria-hidden className="absolute inset-0 -z-10">
+      <div className="absolute inset-0 bg-[radial-gradient(65%_45%_at_50%_30%,rgba(99,102,241,0.22),transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(45%_30%_at_70%_20%,rgba(168,85,247,0.18),transparent_75%)]" />
+      </div>
+
+
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/10 via-background to-background" />
       
       <div className="relative mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
@@ -14,10 +21,14 @@ export function HeroSection() {
           </div>
           
           <h1 className="text-balance text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl">
-            We Build AI Agents That Actually Work
+            We Build AI Agents That{" "}
+            <span className="bg-gradient-to-r from-indigo-400 to-violet-400 bg-clip-text text-transparent">
+              Actually Work
+            </span>
+
           </h1>
           
-          <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground sm:text-xl">
+          <p className="mt-6 text-pretty text-lg leading-relaxed text-white/70 sm:text-xl">
             Mellow Labs is a 3-person AI engineering studio. We help startups ship production-ready 
             AI agents that handle real workflows, not just demos.
           </p>

@@ -46,12 +46,14 @@ export function ProblemsSection() {
           {problems.map((problem, index) => (
             <Card 
               key={problem.title} 
-              className={`service-card group relative border border-border/70 bg-secondary/40 transition-all duration-200 ease-out ${
-                index === 4 ? "sm:col-span-2 lg:col-span-1" : ""
-              }`}
-              style={{
-                boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.02), 0 1px 3px 0 rgba(0, 0, 0, 0.03)',
-              }}
+              className={`service-card group relative border border-border/70 hover:bg-secondary/60 transition-all duration-300 ease-out
+                hover:-translate-y-1
+                hover:shadow-lg
+                hover:shadow-indigo-500/10
+                hover:border-indigo-500/30
+                ${index === 4 ? "sm:col-span-2 lg:col-span-1" : ""}
+              `}
+
             >
               <CardHeader className="space-y-5">
                 <div className="relative">
