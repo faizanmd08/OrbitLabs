@@ -29,7 +29,7 @@ export function HeroSection() {
           </h1>
           
           <p className="mt-6 text-pretty text-lg leading-relaxed text-white/70 sm:text-xl">
-            Mellow Labs is a 3-person AI engineering studio. We help startups ship production-ready 
+            Orbital Labs is a 3-person AI engineering studio. We help startups ship production-ready 
             AI agents that handle real workflows, not just demos.
           </p>
           

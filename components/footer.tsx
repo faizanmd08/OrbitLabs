@@ -7,7 +7,7 @@ export function Footer() {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
               <span className="font-mono text-sm font-bold text-primary-foreground">ML</span>
             </div>
-            <span className="text-lg font-semibold text-foreground">Mellow Labs</span>
+            <span className="text-lg font-semibold text-foreground">Orbital Labs</span>
           </div>
           
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
@@ -23,7 +23,7 @@ export function Footer() {
           </div>
           
           <p className="text-sm text-muted-foreground">
-            2025 Mellow Labs. All rights reserved.
+            2025 Orbital Labs. All rights reserved.
           </p>
         </div>
       </div>

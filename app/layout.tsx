@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Mellow Labs | AI Engineering Studio',
+  title: 'Orbital Labs | AI Engineering Studio',
   description: 'We build custom AI agents that handle real workflows for startups. Expert AI engineering team specializing in autonomous systems, LLM integrations, and production-ready AI solutions.',
   generator: 'v0.app',
   icons: {
