@@ -33,18 +33,10 @@ const projects = [
 
   },
   {
-    title: "Customer Support Agent",
-    client: "E-commerce Platform",
-    description: "Deployed an AI agent that handles 80% of support tickets autonomously, escalating complex issues to humans with full context.",
-    tags: ["OpenAI", "Fine-tuning", "Redis", "Next.js"],
-
-  },
-  {
-    title: "Code Review Bot",
-    client: "Developer Tools Startup",
-    description: "Built a GitHub-integrated agent that reviews PRs, suggests improvements, and catches bugs before they hit production.",
-    tags: ["GPT-4", "GitHub API", "TypeScript", "Webhooks"],
-
+    title: "Automation Workflow System (n8n)",
+    client: "Product Automation / Workflow Optimization",
+    description: "Built an end-to-end automation system using n8n to streamline lead generation, data enrichment, and CRM operations for a client. The workflows automated Apollo-based prospecting, CRM updates, and outreach tracking with defined success metrics, reducing manual effort by up to 80% and enabling scalable, repeatable operations.",
+    tags: ["n8n", "Workflow Automation", "CRM Integration", "Lead Generation", "Process Optimization"],
   },
 ]
 

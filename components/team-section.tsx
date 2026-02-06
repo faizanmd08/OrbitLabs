@@ -2,22 +2,22 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const team = [
   {
-    name: "Alex Chen",
-    role: "Founder & Lead Engineer",
-    bio: "Former ML engineer at Stripe. Built AI systems that processed millions of transactions. Obsessed with making AI reliable in production.",
-    strengths: ["System Architecture", "LLM Fine-tuning", "Scaling"],
+    name: "Ansh Agrawal",
+    role: "Co-Founder",
+    bio: "Helped a client scale operations by building automations for lead generation and CRM, reducing manual work by 80%.",
+    strengths: ["Workflow Automation", "n8n", "CRM Automation", "Lead Generation", "Process Optimization"],
   },
   {
-    name: "Jordan Rivera",
-    role: "Senior AI Engineer",
-    bio: "Ex-Google, worked on conversational AI. Brings deep expertise in NLP, prompt engineering, and building AI that actually understands users.",
-    strengths: ["NLP", "Prompt Engineering", "User Research"],
+    name: "Faizan",
+    role: "Co-Founder | AI Engineer",
+    bio: "Worked on full-stack AI products, combining LLMs with scalable backends to ship fast, user-focused solutions across multiple domains.",
+    strengths: ["LLMs", "Full-Stack", "AI Product Engineering", "APIs", "Scalable Systems"],
   },
   {
-    name: "Sam Patel",
-    role: "Full-Stack AI Engineer",
-    bio: "YC founder background. Knows what startups need: speed, iteration, and pragmatic solutions. Ships fast without cutting corners.",
-    strengths: ["Full-Stack", "DevOps", "Rapid Prototyping"],
+    name: "Dhruv",
+    role: "Co-Founder | AI Engineer",
+    bio: "Built AI-driven agents and RAG-based systems for enterprise workflows, focusing on reliability, system design, and production-ready deployments.",
+    strengths: ["AI Agents", "RAG", "System Design", "Backend Engineering", "Production AI"],
   },
 ]
 
